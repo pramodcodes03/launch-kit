@@ -54,8 +54,8 @@ export function Navbar() {
                 {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </button>
             )}
-            <Button variant="ghost" className="hidden sm:inline-flex">Sign in</Button>
-            <Button variant="primary" className="hidden sm:inline-flex">Get started free</Button>
+            <Button variant="ghost" className="hidden md:inline-flex">Sign in</Button>
+            <Button variant="primary" className="hidden md:inline-flex">Get started free</Button>
 
             {/* Mobile hamburger */}
             <button
